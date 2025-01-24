@@ -1,0 +1,24 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import java.util.Scanner;
+
+public class Demo035 {
+   public Demo035() {
+   }
+
+   public static void main(String[] var0) {
+      Scanner var1 = new Scanner(System.in);
+      System.out.print("Enter the first number: ");
+      int var2 = var1.nextInt();
+      System.out.print("Enter the second number: ");
+      int var3 = var1.nextInt();
+      if (var2 > var3) {
+         System.out.println("" + var2 + " is the bigger number.");
+      } else if (var3 > var2) {
+         System.out.println("" + var3 + " is the bigger number.");
+      } else {
+         System.out.println("Both numbers are equal.");
+      }
+
+      var1.close();
+   }
+}
