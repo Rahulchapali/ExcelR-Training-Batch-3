@@ -1,4 +1,4 @@
-import java.util.Scanner;
+cimport java.util.Scanner;
 
 class Solution {
     public int reverse(int number) {
@@ -11,7 +11,7 @@ class Solution {
         return reversedNumber;
     }
 }
-public class LTCode002 {
+public class LTcode002 {
     public static void main(String[] args) {
         System.out.print("Enter the number: ");
         Scanner sc = new Scanner(System.in);
